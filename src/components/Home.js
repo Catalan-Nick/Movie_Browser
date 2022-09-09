@@ -4,7 +4,7 @@ const Home = () => {
   
   return (
     <div className="bg-dark">
-      <Hero text="Welcome to MovieDatabase - React201" />
+      <Hero text="Welcome to MovieDatabase - React 201" />
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2 my-5">
