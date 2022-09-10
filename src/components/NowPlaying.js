@@ -15,7 +15,7 @@ const NowPlaying = () => {
   }, [])
  
   return (
-        <div className=" d-flex overflow-scroll " >
+        <div className=" d-flex overflow-hidden" >
         
         {inTheater.map(({ title, release_date, poster_path,id}) => (
         <div key={id} className="col-lg-3 col-md-3 col-sm-6 my-4 animate">
