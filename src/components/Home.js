@@ -18,7 +18,7 @@ const Home = () => {
         </div>
       </div>
       {/* Now Playing */}
-      <div className="w-100 m-5 bg-dark">
+      <div className="w-100 my-5 bg-dark">
         <h2 className="text-center text-bg-primary">Now Playing</h2>
         <NowPlaying/>
       </div>
