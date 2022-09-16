@@ -37,6 +37,7 @@ body, html{
     width: 50%;
     height: 50%;
 }
+
 .animate{
     animation-name: slide;
     animation-duration: 60s;
@@ -45,7 +46,10 @@ body, html{
     animation-timing-function: linear;
     transform: translateX(0px);
 }
-
+.animate-stop:hover{
+    animation-name: slide;
+    animation-play-state: paused;
+}
 @keyframes slide {
     0%{
         
